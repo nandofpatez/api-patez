@@ -5,7 +5,7 @@ var produtoController = require('./controllers/produtoController.js');
 var validator = require('validator');
 
 app.get('/', function(req, res){
-	// res.end('Servidor On!');
+	res.end('Servidor On!');
 });
 
 // produtos
