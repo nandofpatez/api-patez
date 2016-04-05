@@ -52,9 +52,11 @@ app.delete('/produtos/:id', function(req, res){
 
 // users
 app.get('/users', function(req, res){
-	userController.list(function(resp){
-		res.json(resp);
-	});
+	// userController.list(function(resp){
+	// 	res.json(resp);
+	// });
+	
+	res.json('teste');
 });
 
 app.get('/users/:id', function(req, res){
