@@ -1,4 +1,4 @@
-var db_string = 'mongodb://heroku:<JlhSM4K2jLvs78CDae-3PXD-6o>@ec2-54-235-93-178.compute-1.amazonaws.com';
+var db_string = 'mongodb://ec2-54-235-93-178.compute-1.amazonaws.com/d9lfgvvmfb7pqh';
 
 var mongoose = require('mongoose').connect(db_string);
 
