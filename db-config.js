@@ -1,4 +1,4 @@
-var db_string = 'mongodb://127.0.0.1/restful';
+var db_string = process.env.MONGOHQ_URL;
 
 var mongoose = require('mongoose').connect(db_string);
 
