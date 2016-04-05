@@ -1,4 +1,4 @@
-var db_string = process.env.MONGOHQ_URL;
+var db_string = 'mongodb://heroku-postgres-5d0ed5f6:84757887nfp@api-patez.herokuapp.com/';
 
 var mongoose = require('mongoose').connect(db_string);
 
